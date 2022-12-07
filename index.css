@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  background-color: #1B244A;
+  font-family: Verdana;
+}
+
+#container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.team{
+  font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+text-align: center;
+}
+
+.score-wrapper, .counters{
+  font-family: 'Cursed Timer ULiL', sans-serif;                                                
+}
+
+.score-wrapper{
+  width: 155px;
+  height: 120px;
+  background-color: black;
+  color: #F94F6D;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 130px;
+}
+
+.counters{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.counters button{
+  color: #9AABD8;
+  border: 2px solid #9AABD8;
+  border-radius: 5px;
+  background-color: #1B244A;
+  padding: 10px 10px;
+
+}
